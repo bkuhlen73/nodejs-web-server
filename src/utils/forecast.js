@@ -1,7 +1,6 @@
 const request = require('request')
 const timestamp = require('unix-timestamp')
 
-
 const forecast = (latitude, longitude, callback) => {
     const url = 'https://api.darksky.net/forecast/3bc79085a564c0c7e0aa515070225edb/' + latitude + ',' + longitude +'?units=si'
     request({ url, json: true}, (error,  { body } ) => {
