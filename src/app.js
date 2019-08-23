@@ -28,9 +28,9 @@ app.get('', (req, res) => {
     })
 })
 
-app.get('/', (req, res) => {
-    res.send('Default page')
-})
+ app.get('/', (req, res) => {
+     res.send('Default page')
+ })
 
 app.get('/about', (req, res) => {
     res.render('about', {
