@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: node-web-app
-        image: bkuhlen73/node-web-app:2
+        image: bkuhlen73/node-web-app
         resources:
           requests:
             cpu: 100m
